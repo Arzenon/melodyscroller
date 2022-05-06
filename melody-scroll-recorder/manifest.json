@@ -1,0 +1,21 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Play music based on page position",
+    "default_popup": "music-scroller.html",
+    "default_icon": {
+      "19": "icons/default19.png",
+      "38": "icons/default38.png"
+    }
+  },
+  "description": "Play music based on page position",
+  "icons": {
+    "48": "icons/music-scroller.png",
+    "96": "icons/music-scroller@2x.png"
+  },
+  "homepage_url": "https://github.com/Arzenon/music-scroller",
+  "manifest_version": 2,
+  "name": "Melody Scroller",
+  "version": "0.1",
+  "permissions": ["cookies","<all_urls>","tabs"]
+}
